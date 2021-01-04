@@ -1,0 +1,11 @@
+:root {
+    --background: #674baf;
+    --body-font: 'Open Sans', sans-serif;
+    --tittle-font: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

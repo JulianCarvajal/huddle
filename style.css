@@ -38,10 +38,11 @@ body {
 /* Main */
 .main {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 250px 300px;
+    grid-template-columns: minmax(280px, 380px);
+    grid-template-rows: minmax(220px, 300px) 300px;
     gap: 25px;
     margin-bottom: 80px;
+    justify-content: center;
 }
 .main__image__container {
     width: 100%;

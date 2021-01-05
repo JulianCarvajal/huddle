@@ -1,0 +1,24 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(380px, 500px)) ;
+    grid-template-rows: 1fr;
+}
+
+
+.description__tittle {
+    text-align: start;
+    font-size: 2.8rem;
+}
+.description__info {
+    text-align: start;
+    font-size: 1.8rem;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer__icons-container {
+    margin: initial;
+}
